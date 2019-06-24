@@ -1,0 +1,112 @@
+@media screen and (max-width: 1010px) {
+	.check__cards {
+		grid-template-columns: auto;
+		grid-row-gap: 46px;
+		padding: 0px 10px;
+	}
+	.check {
+    height: auto;
+}
+.main__check {
+    padding-bottom: 35px;
+}
+.blog__posts {
+		grid-template-columns: auto;
+		grid-row-gap: 46px;
+	}
+	.form {
+    width: auto;
+}
+.forma {
+    width: auto;
+}
+.topbutton {
+    right: 5px;
+}
+#touch-menu {
+    display: block;
+    padding-top: inherit;
+		margin-left: auto;
+	  white-space: nowrap;
+}
+.logo img {
+    width: 75%;
+}
+.menu ul {
+    display: block;
+    margin-top: 355px;
+		background: rgba(39, 39, 38, 0.8);
+  }
+.menu {
+    display: none;
+		width: 200px;
+		margin-right: -20px;
+}
+.menu li {
+    margin-right: 0px;
+    width: auto; 
+    height: 10px;
+    text-align: center;
+  }
+  #touch-menu:hover {
+    background: none;
+}
+}
+
+@media screen and (max-width: 1600px) {
+ .works {
+    height: auto;
+}
+.blog {
+    height: auto;
+}
+}
+
+@media (min-width: 320px) and (max-width: 361px) {
+.row1 {
+	width: 100%;
+}
+}
+@media (min-width: 1010px) and (max-width: 1125px) {
+.blog__posts{
+/*	grid-template-columns: 1fr 1fr 1fr 1fr;*/
+	grid-row-gap: 21px;
+}
+}
+@media screen and (max-width: 460px) {
+.form-input-name, .form-input-email {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+.message {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.swiper-pagination {
+	margin-left: -30%;
+}
+.footer__nav ul {
+    padding: 0 10px;
+}
+}
+@media (min-width: 460px) and (max-width: 768px) {
+	.swiper-pagination {
+	margin-left: -40%;
+}
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+	.swiper-pagination {
+	margin-left: -43%;
+}
+}
+@media screen and (max-width: 768px) {
+h1 {
+    font-size: 20px;
+}
+h2 {
+    font-size: 32px;
+}
+.text {
+	width: 240px;
+}
+}
